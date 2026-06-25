@@ -1,0 +1,15 @@
+{
+  "name": "upi-offline-mesh-node",
+  "version": "1.0.0",
+  "description": "UPI Offline Mesh demonstration backend ported to Node.js",
+  "type": "module",
+  "main": "src-node/server.js",
+  "scripts": {
+    "start": "node src-node/server.js",
+    "test": "node tests/concurrency.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  }
+}

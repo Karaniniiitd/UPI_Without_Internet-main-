@@ -1,0 +1,23 @@
+# Maven build output
+target/
+
+# Maven wrapper JAR (downloaded automatically, no need to commit)
+.mvn/wrapper/maven-wrapper.jar
+
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# IDE-specific files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Node.js dependencies (installed via npm install)
+node_modules/
+
+# npm lock file (generated — committed optionally, excluded here for cleanliness)
+package-lock.json
